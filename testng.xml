@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="false">
+    <listeners>
+        <listener class-name="listeners.ExtentReportsListener"/>
+    </listeners>
+    <test name="AllTests">
+        <classes>
+            <class name="tests.BaseTest"/>
+        </classes>
+    </test>
+</suite>
